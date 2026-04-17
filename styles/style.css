@@ -1,0 +1,105 @@
+@import url('https://fonts.googleapis.com/css2?family=Belleza&family=Give+You+Glory&display=swap');
+
+/* Apply Belleza to the whole site as the default */
+body {
+    font-family: 'Belleza', sans-serif;
+    text-transform: uppercase; /* Most of your text is in caps */
+    letter-spacing: 1px;
+}
+
+/* Apply Give You Glory to the big name behind you */
+.background-name {
+    font-family: 'Give You Glory', crossorigin;
+    font-size: 250px;
+    color: #FF69B4;
+    text-transform: none; /* Keep the handwriting look natural */
+}
+
+/* Specific styling for the 'MY WORK' title */
+.section-title {
+    font-family: 'Belleza', sans-serif;
+    font-size: 4rem;
+    font-weight: 400;
+.background-name {
+    font-family: 'Give You Glory', cursive;
+    -webkit-text-stroke: 1px #FF69B4; /* This makes the lines a bit thicker */
+}
+/* General Setup */
+body {
+    margin: 0;
+    padding: 0;
+    background-color: #fff;
+    font-family: 'Belleza', sans-serif; /* Clean font for the whole site */
+}
+
+/* Navigation */
+.navbar {
+    display: flex;
+    justify-content: space-around;
+    padding: 25px;
+    border-bottom: 1px solid #e0e0e0;
+}
+
+.navbar a {
+    text-decoration: none;
+    color: #333;
+    font-size: 14px;
+    letter-spacing: 2px;
+}
+
+/* Hero Section Layering */
+.hero {
+    position: relative;
+    height: 600px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    overflow: hidden;
+}
+
+.hero-text {
+    position: absolute;
+    font-family: 'Give You Glory', cursive; /* Your handwriting font */
+    font-size: 18rem;
+    color: #ff85c1; /* That vibrant pink */
+    z-index: 1;    /* Sits behind the image */
+    margin: 0;
+    white-space: nowrap;
+}
+
+.hero-image {
+    position: relative;
+    z-index: 2;    /* Sits in front of the text */
+    height: 100%;
+    object-fit: contain;
+}
+
+/* Lower Section Styling */
+.bio {
+    text-align: center;
+    padding: 50px 0;
+}
+
+.designer-tag {
+    display: inline-block;
+    border: 1px solid #333;
+    padding: 5px 20px;
+    border-radius: 20px;
+    font-size: 12px;
+    margin-bottom: 20px;
+}
+
+.bio h2 {
+    font-size: 2.5rem;
+    font-weight: 400;
+}
+
+.bio span {
+    font-weight: 700; /* Makes "kinda" and "thing" bold like your photo */
+}
+
+.section-title {
+    font-size: 5rem;
+    margin-top: 100px;
+    font-weight: 400;
+}
